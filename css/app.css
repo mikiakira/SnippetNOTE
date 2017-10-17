@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+ /* IME Fix */
+@font-face {
+  font-family: 'ime_jp_rp';
+  src: url('../fonts/ime_jp_rp.woff') format('woff');
+}
+.ace_editor > .ace_text-input {
+  padding-top: 1px;
+  padding-left: 1px;
+  letter-spacing: 1px;
+  font-family: ime_jp_rp, Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+}
+
+body {
+/*    background-color: rgb(0, 174, 204);*/
+    background-color: #444;
+    display: block;
+    height: auto;
+}
+
+h1 {
+    font-size: 14px;
+    color: #a9b7c6;
+    margin-top: 11px;
+}
+select.form-control {
+    background-color: #3c3f41;
+    color: #fff;
+    margin-bottom: 4px;
+}
+input {
+    margin-bottom: 4px;
+}
+input.form-control {
+    height: auto;
+    background-color: #000;
+    color: #a9b7c6;
+}
+
+.list-group-item {
+    background-color: #ccc;
+    cursor: pointer;
+}
+label {
+    color: #a9b7c6;
+}
+#article {
+    width: 100%;
+    height: 500px;
+}
+#articles_box {
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#login_box {
+    margin-top: 200px;
+}
+#login_box .white {
+    color: #fff;
+}
+
+#login_box input[type="submit"] {
+    margin-top: 10px;
+}
+
+#login_box label {
+    color: #fff;
+}
