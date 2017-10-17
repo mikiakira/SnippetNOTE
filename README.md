@@ -1,6 +1,8 @@
 SnippetNOTE
 ====
 
+<img src="https://github.com/mikiakira/imageArchive/blob/master/img/sn01.jpg?raw=true">
+
 ## Overview
 
 This is a simple snippet management software that can be managed with a browser.
