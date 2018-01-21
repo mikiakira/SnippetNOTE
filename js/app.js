@@ -102,7 +102,13 @@ $(function(editor) {
 
     // 記事新規ボタン
     $(document).on('click', '#addArticle', function() {
-        resetForm();
+        if ($("#title").val() != '' || ace.edit("article").getValue() != '') {
+            if(window.confirm('記事内容をクリアして新しく記事を作成します。よろしいですか？')){
+                resetForm();
+            }
+        } else {
+            resetForm();
+        }
     });
 
     // 記事保存ボタン
