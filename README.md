@@ -27,3 +27,6 @@ it can be started immediately by just rewriting the password with the setting fi
 
 ## Copyright and license
 Code copyright 2017 the Web Atelier Midori Inc. Code released under the MIT License.
+
+## An explanation of Japanese
+For commentary on Japanese please see [Qiita] (https://qiita.com/Web_akira/items/19c6f190e75426edaea0) (日本語の解説は Qiita の記事をご覧下さい).
