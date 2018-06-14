@@ -128,12 +128,19 @@ if ($pass === APP_PASS) {
                             <option value="html">HTML</option>
                             <option value="css">CSS</option>
                             <option value="scss">SCSS</option>
+                            <option value="less">LESS</option>
                             <option value="javascript">JS</option>
+                            <option value="json">JSON</option>
+                            <option value="csharp">C#</option>
+                            <option value="java">JAVA</option>
                             <option value="php">PHP</option>
+                            <option value="smarty">Smarty</option>
                             <option value="ruby">Ruby</option>
+                            <option value="perl">Perl</option>
                             <option value="python">Python</option>
                             <option value="json">json</option>
                             <option value="xml">xml</option>
+                            <option value="yaml">YAML</option>
                             <option value="markdown">MarkDown</option>
                         </select>
                         <!-- 削除ボタン -->
